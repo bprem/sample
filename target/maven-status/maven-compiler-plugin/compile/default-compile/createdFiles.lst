@@ -1,0 +1,6 @@
+utility\CommonFunctions.class
+pages\LoginPage_PF.class
+pages\LoginPage.class
+utility\PropertyFileReader.class
+pages\RegistrationPage.class
+browserSettings\ChooseDriver.class
