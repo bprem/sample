@@ -42,6 +42,7 @@ public class Sample_Testng {
 	@Test(priority=2)
 	public void filldata()
 	{
+		System.out.println("this is new line");
 		RegistrationPage rp = new RegistrationPage(d);
 		rp.contactInformation("prem","kumar","987655","sdfndsf@gmail.com");
 		rp.mailingInformation("mdu","madurai","TN","625009","ANGOLA");	
