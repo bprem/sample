@@ -13,6 +13,7 @@ static	WebDriver driver;
 	{
 		if(bname.equalsIgnoreCase("chrome"))
 		{
+			// sample line
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Prem Kumar\\Downloads\\chromedriver_81\\chromedriver.exe");
 			 driver = new ChromeDriver();
 			driver.manage().window().maximize();
